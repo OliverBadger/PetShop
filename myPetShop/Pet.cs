@@ -66,15 +66,17 @@ namespace myPetShop
         public void GetInfo()
         {
             Console.WriteLine($"""
+
                 Name = { _name }
                 Age = { _age }
                 Description = { _description }
                 Price = £{_price:N0}
+
                 """);
         }
 
         public virtual void Sleep() => Console.WriteLine("zzzzzzzz!");
 
-        public void Eat() => Console.WriteLine("nom nom nom!");
+        public virtual void Eat() => Console.WriteLine("nom nom nom!");
     }
 }
