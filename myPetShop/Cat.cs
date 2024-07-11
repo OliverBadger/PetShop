@@ -8,8 +8,8 @@ class Cat : Pet
     private bool _hasTail; // Manx Isle of Man, Has no Tail!
 
     /* Constructor */
-    public Cat(int id, string colour, string gender, string size, int age, 
-        int numberOfLegs, string name, string description, string breed,
+    public Cat(int id, string colour, string gender, string breed, string size, int age, 
+        int numberOfLegs, string name, string description, 
         int price, bool hasFur, bool hasTail) : base(id, colour, gender, size, age, numberOfLegs, name, description, price)
     {
         _hasFur = hasFur;
