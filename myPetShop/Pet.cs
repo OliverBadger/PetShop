@@ -70,6 +70,7 @@ namespace myPetShop
                 Name = { _name }
                 Age = { _age }
                 Description = { _description }
+                Colour = {_colour}
                 Price = £{_price:N0}
 
                 """);

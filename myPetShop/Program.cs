@@ -10,3 +10,6 @@ d1.Sleep();
 Cat c1 = new Cat(1, "Cream", "Female", "Jess", "Small", 4, 4, "Spawn of Satan", "That one with no hair", 15000, false, true);
 c1.GetInfo();
 c1.Sleep();
+Goldfish g1 = new Goldfish(1, "Female", "Tiny", 1, 0, "The Destroyer", "He knows nothing but pain!", 15000);
+g1.GetInfo();
+g1.Sleep();
