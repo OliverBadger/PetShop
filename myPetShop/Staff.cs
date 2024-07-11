@@ -1,4 +1,4 @@
 ﻿
 namespace myPetShop;
 
-public record Staff() { }
+public record Staff(int EmployeeNumner, string name);
