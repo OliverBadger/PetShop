@@ -20,4 +20,5 @@ class Dog : Pet
     /* Methods */
     public override void Sleep() => Console.WriteLine("zzz woof woof zzz!");
     public void Play() => Console.WriteLine("Im playing fetch!");
+    public override void Poops() => Console.WriteLine("I Pooped and im a dog");
 }

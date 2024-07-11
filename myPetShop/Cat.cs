@@ -20,4 +20,5 @@ class Cat : Pet
     /* Methods */
     public override void Sleep() => Console.WriteLine("zzz purr purr zzz!");
     public override void Eat() => Console.WriteLine("Meow nom!");
+    public override void Poops() => Console.WriteLine("I Pooped and im a cat");
 }
