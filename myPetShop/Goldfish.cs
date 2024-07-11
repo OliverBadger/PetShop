@@ -12,7 +12,7 @@ class Goldfish : Pet
 
     /* Methods */
     public override void Sleep() => Console.WriteLine("zzz blub blub zzz!");
-
+    public override void Eat() => Console.WriteLine("Blub nom Blub!");
     public void Swim() => Console.WriteLine("I Swam!");
     public override void Poops() => Console.WriteLine("I Pooped and im a goldfish!");
 }

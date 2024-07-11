@@ -66,13 +66,11 @@ abstract class Pet
             Description = { _description }
             Colour = {_colour}
             Price = £{_price:N0}
-
             """);
     }
 
-    public virtual void Sleep() => Console.WriteLine("zzzzzzzz!");
-
-    public virtual void Eat() => Console.WriteLine("nom nom nom!");
-
+    public void gettingOlder() => _age++;
+    abstract public void Sleep();
+    abstract public void Eat();
     abstract public void Poops();
 }
